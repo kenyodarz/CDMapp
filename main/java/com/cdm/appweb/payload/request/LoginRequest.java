@@ -2,6 +2,7 @@ package com.cdm.appweb.payload.request;
 
 import javax.validation.constraints.NotBlank;
 
+/* Clase especializada solo en manejar los parametros del login */
 public class LoginRequest {
 	@NotBlank
 	private String username;

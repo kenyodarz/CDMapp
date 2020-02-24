@@ -2,6 +2,10 @@ package com.cdm.appweb.models;
 
 import javax.persistence.*;
 
+
+/* Tabla Roles:
+*  se conecta a la base de datos mas concretamente a la tabla roles que guarda los diferentes
+*  toles del sistema. */
 @Entity
 @Table(name = "roles")
 public class Role {

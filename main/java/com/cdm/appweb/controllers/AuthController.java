@@ -32,6 +32,8 @@ import com.cdm.appweb.repository.UserRepository;
 import com.cdm.appweb.security.jwt.JwtUtils;
 import com.cdm.appweb.security.services.UserDetailsImpl;
 
+/* Controlador API/REST que recibe las petiociones del cliente y las maneja */
+
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")

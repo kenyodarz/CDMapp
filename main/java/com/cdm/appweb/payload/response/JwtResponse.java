@@ -2,6 +2,9 @@ package com.cdm.appweb.payload.response;
 
 import java.util.List;
 
+/* clase especializada que maneja la respuesta de la
+ * validacion si el usuario pudo o no conectarse.
+ */
 public class JwtResponse {
 	private String token;
 	private String type = "Bearer";

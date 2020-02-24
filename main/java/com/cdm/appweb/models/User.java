@@ -8,6 +8,10 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+/* Tabla Usuarios:
+ * llamada en la base de datos user guardo los registros
+ * de casa usuario que puede acceder al sistema */
+
 @Entity
 @Table(	name = "users", 
 		uniqueConstraints = { 

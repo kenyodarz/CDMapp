@@ -3,7 +3,8 @@ package com.cdm.appweb.payload.request;
 import java.util.Set;
 
 import javax.validation.constraints.*;
- 
+
+/* Clase especializada en manejar los parametros del registro. */
 public class SignupRequest {
     @NotBlank
     @Size(min = 3, max = 20)

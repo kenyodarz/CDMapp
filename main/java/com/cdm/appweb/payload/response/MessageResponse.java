@@ -1,5 +1,6 @@
 package com.cdm.appweb.payload.response;
 
+/* Clase que maneja los mensajes de respuesta de la API */
 public class MessageResponse {
 	private String message;
 
